@@ -2,15 +2,15 @@
 #include<conio.h>
 void main()
          {
-          int amount, years;
-          float rate, interest;
+          int p,n;
+          float r,SI;
           printf("Enter the principle amount\n");
-          scanf("%d",&amount);
+          scanf("%d",&p);
           printf("Enter the number of years\n");
-          scanf("%d",&years);
+          scanf("%d",&n);
           printf("Enter the rate of interest\n");
-          scanf("%f",&rate);
-          interest = (years*amount*rate)/100;
-          printf("The interest is %f",interest);
+          scanf("%f",&r);
+          SI = (p*n*)/100;
+          printf("The interest is %f",SI);
           getch();
 }
